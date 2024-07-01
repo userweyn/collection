@@ -1,0 +1,15 @@
+#digital-printing, #view-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+#modal-overlay{
+    width: 100vw;
+    height: 300vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}

@@ -1,0 +1,38 @@
+@import 'variables.css';
+
+
+header{
+    margin: 2rem 0;
+}
+.left-nav a, .right-nav ul{
+    display: flex;
+    margin: 1rem 0;
+}
+.left-nav a{
+    justify-content: center;
+}
+.left-nav a:hover{
+    opacity: 50%;
+}
+.left-nav a:active{
+    opacity: 80%;
+}
+.right-nav ul{
+    justify-content: space-evenly;
+    width: 300px;
+    margin: auto;
+}
+nav a{
+    font-size: .8rem;
+    font-weight: bold;
+}
+nav{
+    display: block;
+}
+
+.vitaly{
+    color: var(--accent2);
+}
+.tea{
+    color: var(--accent1);
+}

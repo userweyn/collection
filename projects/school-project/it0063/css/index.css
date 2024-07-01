@@ -1,0 +1,183 @@
+@import 'variables.css';
+
+main a{
+    background-color: var(--accent1);
+    padding: .5rem .7rem;
+    border-radius: 10px;
+    color: var(--buttontext);
+}
+main a:hover{
+    color: var(--buttontext);
+    text-decoration: underline;
+}
+main a:active{
+    opacity: 90%;
+}
+main h2, main h3, main a{
+    margin: 1rem;
+    text-align: center;
+}
+main{
+    width: 90vw;
+    margin: auto;
+    
+}
+.greeting{
+    position: relative;
+}
+
+.img-container{
+    width: 100%;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.slogan-container h2{
+    color: var(--accent1);
+}
+.img-container, .slogan-container, .btn-container{
+    position: relative;
+}
+.slogan-container, .btn-container{
+    z-index: 2;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, var(--accent2), transparent);
+    z-index: 1;
+}
+.about .faq{
+    border-bottom: 1px solid var(--accent3);
+}
+.about p{
+    margin: 1rem;
+}
+
+.contact{
+    padding: 0 2rem;
+}
+.contact-detail{
+    display: flex;
+    align-items: center;
+}
+.contact img{
+    border-radius: 50%;
+}
+
+
+.service-container{
+    width: 90vw;
+    height: 500px;
+}
+.service-container .img-container{
+    height: 50%;
+}
+.service-container .img-container img{
+    width: 90%;
+    object-fit: contain;
+}
+.service-btn-container{
+    padding: 1rem;
+    border-bottom: 1px solid var(--accent3);
+    display: flex;
+    justify-content: center;
+}
+
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 1.3rem auto;
+}
+.input-left{
+    width: 50%;
+    text-align: end;
+    padding: 0 0.3rem 0 0;
+}
+.input-right{
+    width: 50%;
+}
+.title{
+    padding: .1rem;
+    background-color: var(--accent1);
+    border-radius: 30px 30px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.title h3{
+    color: var(--buttontext);
+}
+.close-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    box-shadow: none;
+    padding: .1rem .4rem;
+}
+
+
+.remarks{
+    width: 150px;
+    height: 50px;
+    font-size: .7rem;
+}
+#name{
+    width: 150px;
+}
+
+
+
+.product .img-container{
+    width: 100px;
+    height: 100px;
+}
+.product .img-container img{
+    margin: auto;
+}
+.product{
+    display: flex;
+    border: 1px solid var(--accent3);
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.product div{
+    margin: 0 1rem;
+}
+.product .product-details .product-price{
+    font-weight: bold;
+}
+.product .qty{
+    width: 50px;
+}
+.product-order p{
+    font-size: .5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+@media(min-width: 700px) {
+    .greeting, .home, #contact, .contact-detail, .service-container{
+        width: 70%;
+        margin: auto;
+    }
+}
+

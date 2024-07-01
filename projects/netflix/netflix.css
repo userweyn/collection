@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body{
+    background-color: grey;
+}
+.main-home{
+    background-color: grey;
+}
+main{
+    background-color: black;
+}
+header{
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("images/banner-background.jpg");
+    background-position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    max-width: 150px;
+}
+select{
+    background-color: transparent;
+}
+button{
+    border: none;
+    background-color: red;
+}
+select, button, input{
+    height: 30px;
+    padding: 0 .5rem;
+    outline: none;
+    border-radius: 3px;
+}
+select, button{
+    cursor: pointer;
+}
+select:hover, button:hover, a:hover{
+    opacity: 80%;
+}
+select:focus, button:focus, input:focus, a:focus{
+    border: white;
+}
+select:active, button:active, input:active, a:active{ 
+    opacity: 50%;
+}
+select option{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+.heading{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    text-align: center;
+}
+.heading{
+    background-image: linear-gradient(to bottom,black, rgba(0,0,0,0));
+}
+.header-banner{
+    padding: 5rem 0;
+    text-align: center;
+    line-height: 1.5;
+}
+h2,p{
+    padding-bottom: .5rem;
+}
+h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+p{
+    font-size: 1.1rem;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid gray;
+}
+.feature{
+    margin: 0.5rem 0;
+    background-color: black;
+    text-align: center;
+    padding: 2rem;
+}
+.section-down{
+    padding: 2rem 0;
+}
+.feature img{
+    width: 100%;
+    max-width: 450px;
+}
+.faq ul{
+    list-style-type: none;
+    text-align: left;
+}
+.faq li{
+    margin: .3rem 0;
+    padding: 1rem;
+    background-color: grey;
+}
+.faq li p{
+    margin: .1rem 0;
+    padding: 1rem 1.5rem;
+    display: none;
+}
+.faq li:active{
+    opacity: 50%;
+}
+.faq li:hover p{
+    display: block;
+}
+footer .feature p{
+    font-size: .7rem;
+    color: lightgray;
+    letter-spacing: .05rem;
+}
+
+
+.header-home{
+    background-image:url("images/banner.gif");
+    background-position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+.heading ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.heading .left-side{
+    display: flex;
+    align-items: center;
+}
+.heading nav{
+    display: none;
+}
+.icon{
+    max-width: 25px;
+}
+.heading .profile{
+    max-width: 35px;
+    margin-right: 8px;
+}
+.heading ul li{
+    padding: .3rem .5rem;
+}
+.heading .right-side input{
+    display: none;
+}
+.right-side li .drop{
+    max-width: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+.right-side li .account{
+    display: flex;
+    align-items: center;
+}
+.movie-banner{
+    padding: 3%;
+}
+
+.movie-banner-info{
+    width: 80%;
+    margin-top: 10vh;
+}
+.movie-banner-btn{
+    display: flex;
+    margin-top: 1rem;
+}
+.btn-play{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: .8rem;
+    padding: .3rem 1rem;
+}
+.btn-info{
+    display: flex;
+    align-items: center;
+    background-color: rgba(84, 84, 84, 0.5);
+    font-weight: bold;
+    font-size: .8rem;
+    padding: .3rem 1rem;
+    margin-left: 10px;
+}
+.movie-display h3{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.movies{
+    display: flex;
+    width: 100%; 
+    overflow-x: scroll;
+    margin-bottom: 20px;
+}
+.movie{
+    width: 200px;
+    margin-right: 3px;
+}
+
+
+@media screen and (min-width:768px) {
+    .feature{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq{
+        display: block;
+    }
+    .feature input{
+        margin-left: 20px;
+    }
+
+
+
+    header,.header-home{
+        height: 90vh;
+    }
+
+    .heading nav, .heading .right-side input{
+        display: flex;
+    }
+    .right-side li .drop{
+        max-width: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: block;
+    }
+
+
+    .movie-banner-info{
+        width: 40%;
+        margin-top: 10vh;
+    }
+    .movie-display h3{
+        font-size: 1.3rem;
+        margin-bottom: 8px;
+    }
+    .movie{
+        width: 300px;
+        margin-right: 5px;
+    }
+    .movie-display .movie:hover{
+        cursor: pointer;
+        transform: scale(1.3);
+    }
+}
+

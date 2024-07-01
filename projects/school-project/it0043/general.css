@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root{
+    --accent-color: orangered;
+    --link-text-color:white;
+    --text-color:rgb(45, 45, 45);
+    --text-color-2:rgb(73, 73, 73);
+    --link-text-size: .7rem;
+}
+a{
+    color: var(--link-text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    opacity: 80%;
+}
+h2{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+p{
+    color: var(--text-color-2);
+    line-height: 1.5rem;
+}
+
+/*FOOTER*/
+
+footer{
+    min-width: 350px;
+    height: 100px;
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: rgb(216, 216, 216);
+}

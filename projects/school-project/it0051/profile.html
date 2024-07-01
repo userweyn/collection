@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <section class="mobile-screen">
+        <header class="title-header">
+            <p>PROFILE</p>
+        </header>
+        <main>
+            <section class="profile-dp">
+                <a href="img/profile.jpg"><img src="img/profile.jpg"></a>
+            </section>
+            <section class="edit-profile">
+                <a href="edit-profile.html">Edit Profile <img class="icon" src="img/edit.png"></a>
+            </section>
+            <section class="profile-details">
+                <label for="fname">First Name</label>
+                <h3 id="#fname">Sherwin</h3>
+                <label for="lname">Last Name</label>
+                <h3 id="#lname">Latawan</h3>
+                <label for="username">Username</label>
+                <h3 id="#username">sherwinlatawan</h3>
+                <label for="password">Password</label>
+                <h3 id="#password">password</h3>
+                <button class="rent-own-button">List my unit</button>
+            </section>
+            <section class="logout-button">
+                <form action="login.html">
+                    <button onclick="logOut()">Log Out</button>
+                </form>
+                <a class="random-link" href="home.html">Return Home</a>
+            </section>
+        </main>
+        <footer>
+            <p>IT005 Project</p>
+            <p>Sherwin Degay Latawan</p>
+        </footer>
+    </section>
+    
+
+    <script>
+        function logOut(){
+            alert("Successfully Logged Out ");
+        }
+    </script>
+</body>
+</html>

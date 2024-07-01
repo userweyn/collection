@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/login-signup.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/edit-profile.css">
+</head>
+<body>
+    <section class="mobile-screen">
+        <header>
+            <section class="title-header">
+                <p>EDIT PROFILE</p>
+            </section>
+        </header>
+        <main>
+            <section class="profile-dp">
+                <a href="img/profile.jpg"><img src="img/profile.jpg"></a>
+            </section>
+            <section class="details">
+                <div class="details-form">
+                    <label for="file">Change Profile Picture</label>
+                    <input class="file-input" type="file" id="file" name="">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="" id="fname" value="Sherwin">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="" id="lname" value="Latawan">
+                    <label for="username">Username</label>
+                    <input type="text" name="" id="username" value="sherwinlatawan">
+                    <label for="password">Password</label>
+                    <input type="password" name="" id="password" value="password">
+                </div>
+                <div class="details-button">
+                    <form action="profile.html">
+                        <Button onclick="save()">Save Profile Details</Button>
+                        <a class="random-link" href="profile.html">Cancel</a>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>IT0051 Project</p>
+            <p>Sherwin Degay Latawan</p>
+        </footer>
+    </section>
+
+        <script>
+            function signUp(){
+                alert("Succesfully Signed Up!");
+            }
+            function logIn(){
+                alert("Successfully Signed In");
+            }
+            function save(){
+                alert("Profile Details Saved Successfully");
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+
+.header-top{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100px;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+}
+.header-top .profile-dp img{
+    width: 50px;
+    border: none;
+}
+.header-top .profile-dp .menu{
+    width: 20px;
+    border-radius: 0px;
+}
+.view-profile-container{
+    width: 90px;
+    height: 55px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .3rem;
+}
+
+.search-box-container{
+    display: flex;
+    height: 40px;
+    width: 80%;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    margin: 30px auto;
+
+}
+.search-box-container button{
+    width: 40px;
+    height: 40px;
+    box-shadow: none;
+}
+.search-box-container img{
+    width: 30px;
+}
+.search-box-container input{
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.filter-container img{
+    width: 25px;
+}
+.filter-container button{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    background-color: transparent;
+    color: rgba(0, 0, 0,1);
+    font-weight: normal;
+    box-shadow: none;
+    width: 80px;
+    height: 80px;
+    font-size: .7rem;
+    margin: 0 .5rem;
+}
+
+.what{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.what li{
+    padding: .5rem;
+}
+.what li a{
+    text-decoration: none;
+    font-size: .8rem;
+}
+.who{
+    padding: 10px;
+    font-size: 1rem;
+}

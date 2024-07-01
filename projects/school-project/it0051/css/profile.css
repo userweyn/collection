@@ -1,0 +1,40 @@
+.profile-dp img{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid dodgerblue;
+}
+.profile-dp{
+    display: flex;
+    justify-content: center;
+}
+
+.edit-profile{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+.edit-profile a{
+    width: 200px;
+    color: dodgerblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-profile .icon{
+    width: 20px;
+    margin: 0 0 0 10px;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+label{
+    color: dodgerblue
+}
+
+.logout-button button{
+    margin: auto;
+}

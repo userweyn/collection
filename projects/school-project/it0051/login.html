@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/login-signup.css">
+</head>
+<body>
+    <section class="mobile-screen">
+        <header>
+            <section class="logo">
+                <img src="img/logo.png">
+                <h1>UPA</h1>
+            </section>
+            <section class="title-header">
+                <p>SIGN IN</p>
+            </section>
+        </header>
+        <main>
+            <section class="login-main">
+                <section class="details">
+                    <div class="details-form">
+                        <label for="username">Username</label>
+                        <input type="text" name="" id="username">
+                        <label for="password">Password</label>
+                        <input type="password" name="" id="password">
+                    </div>
+                    <div class="login-details-forgot">
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <div class="details-button">
+                        <form action="home.html">
+                            <Button onclick="logIn()">LOGIN</Button>
+                        </form>
+                        <a class="random-link" href="home.html">Sign in as Guest</a>
+                    </div>
+                </section>
+                <section class="login-signup">
+                    <div class="login-signup-link">
+                        <a href="signup.html">SIGN UP</a>
+                    </div>
+                    <div class="login-signup-icons">
+                        <p>Or Sign In using</p>
+                        <ul>
+                            <li><a href="home.html" onclick="logIn()"><img src="img/fb.png"></li></a>
+                            <li><a href="home.html" onclick="logIn()"><img src="img/gmail.png"></li></a>
+                            <li><a href="home.html" onclick="logIn()"><img src="img/ig.png"></li></a>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <p>IT0051 Project</p>
+            <p>Sherwin Degay Latawan</p>
+        </footer>
+    </section>
+
+        <script>
+            function signUp(){
+                alert("Successfully Signed Up!");
+            }
+            function logIn(){
+                alert("Successfully Signed In")
+            }
+        </script>
+</body>
+</html>

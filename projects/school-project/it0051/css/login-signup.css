@@ -1,0 +1,35 @@
+.logo{
+    margin: 3rem auto 0;
+}
+
+.login-header{
+    text-align: center;
+    padding: 2.5rem;
+}
+.login-header p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.details-form, .login-details-forgot, .details-button{
+    margin: 0 auto;
+    padding: .5rem;
+}
+label{
+    font: .8rem;
+    color: rgb(55, 55, 55);
+}
+.login-signup{
+    text-align: center;
+}
+.login-signup-link, .login-signup-icons{
+    padding: 1rem 1rem 0;
+}
+.login-signup-icons ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.details, .details-form{
+    display: flex;
+    flex-direction: column;
+}

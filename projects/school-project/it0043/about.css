@@ -1,0 +1,17 @@
+:root{
+    --accent-color: orangered;
+    --link-text-color:white;
+    --text-color:rgb(45, 45, 45);
+    --text-color-2:rgb(73, 73, 73);
+    --link-text-size: .7rem;
+}
+
+h2,p{
+    margin-bottom: 1rem;
+}
+main{
+    display: block;
+}
+section{
+    margin: 40px 50px;
+}

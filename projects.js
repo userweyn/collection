@@ -34,5 +34,12 @@ const projects=[
         description: "Utilizing mainly HTML and CSS with a touch of Javascript",
         image: "images/thumbnails/it0063.JPG",
         location: "projects/school-project/it0063/index.html"
+    },
+    {
+        name: "GCO Connect Landing Page",
+        description: "A front-end project built mainly with HTML and CSS, with some JavaScript, submitted for a front-end development internship at FEU Tech.",
+        image: "images/thumbnails/gco-output.PNG",
+        location: "projects/GCO Output/index.html"
     }
+
 ];

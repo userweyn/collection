@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraverse - GCO Connect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logos/icon-paraverse.svg">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logos/icon-paraverse.svg" alt="icon-paraverse" class="paraverse">
+            <img src="img/logos/logo-gco-connect.svg" alt="logo-gco-connect" class="gco-connect">
+        </div>
+        <div id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav id="mobile-menu">
+            <ul>
+                <div class="menu-profile">
+                    <p>Sherwin Latawan</p>
+                    <img src="img/logos/icon-user-profile.png" alt="icon-user-profile">
+                </div>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Appointment</a></li>
+                <li><a href="#">History</a></li>
+            </ul>
+
+            
+        </nav>
+
+        <nav class="desktop-menu">
+            <ul>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Appointment</a></li>
+                <li><a href="#">History</a></li>
+            </ul>
+            <div>
+                <img src="img/logos/icon-notification.png" alt="icon-notification">
+                <img src="img/logos/icon-user-profile.png" alt="icon-user-profile">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-container">
+            <div class="hero">
+                <div class="greet">
+                    <h2>Welcome,</h2>
+                    <h1>Sherwin</h1>
+                </div>
+                <div class="text">
+                    <p>Request support, track appointments, and continue your wellness journey here at </p>
+                    <p>GCO <span>Connect</span></p>
+                </div>
+                
+                <div class="hero-btn">
+                    <button class="view-services">VIEW SERVICES</button>
+                    <button class="add-appointment">ADD APPOINTMENT</button>
+                </div>
+            </div>
+            <div class="illustration">
+                <img src="img/illustrations/hero2.png" alt="image">
+            </div>
+            
+        </div>
+        <div class="steps-container">
+            <div class="step">
+                <div class="circle">1</div>
+                <p>CHOOSE SERVICE</p>
+            </div>
+            <div class="step">
+                <div class="circle">2</div>
+                <p>PICK A SCHEDULE</p>
+            </div>
+            <div class="step">
+                <div class="circle">3</div>
+                <p>SUBMIT REQUEST</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="section-header">
+                <div>
+                    <p>SERVICE TYPES</p>
+                </div>
+                <div class="btn-slider">
+                    <button>&lt;</button>
+                    <button>&gt;</button>
+                </div>
+            </div>
+            <div class="section-card">
+                <div class="card-container">
+                    <div class="card-hero">
+                        <img src="img/illustrations/interview.png">
+                        <p>INTERVIEW</p>
+                    </div>
+                    <div class="card-desc">
+                        <p>A one-on-one conversation to help the counselor understand your concerns, needs, and current situation.</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-hero">
+                        <img src="img/illustrations/psychology.png">
+                        <p>PSYCHOLOGY</p>
+                    </div>
+                    <div class="card-desc">
+                        <p>Standardized assessments conducted online or in person to better understand abilities, interests, and other psychological factors. This service is for students referred for testing.</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-hero">
+                        <img src="img/illustrations/counceling.png">
+                        <p>COUNSELING</p>
+                    </div>
+                    <div class="card-desc">
+                        <p>Ongoing support recommended by a counselor, focused on helping you manage challenges, adjust, and work toward personal growth.</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-hero">
+                        <img src="img/illustrations/consultation.png">
+                        <p>CONSULTATION</p>
+                    </div>
+                    <div class="card-desc">
+                        <p>For general concerns, questions, or follow-ups. Counselors provide guidance, practical advice, and helpful resources to support your situation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+    <footer>
+        <div class="gco">
+            <img src="img/logos/logo-gco-connect.svg">
+            <h2>Start your journey towards wellbeeing.</h2>
+            <p>The GCO Connect is a supportive space to empower you towards your wellbeeing journey. GCO associates are committed to creating emphatic atmosphere where everyone is respected and feels heard</p>
+        </div>
+        <div class="feu">
+            <div>
+                <img src="img/logos/FEU_Alabang_logo.png">
+                <img src="img/logos/Feufernlogo.png">
+                <img src="img/logos/FEU_Tech_official_seal.png">
+            </div>
+            <div class="edith">
+                <img src="img/logos/edith-logo.png">
+                <div>
+                    <p>Proudly made with ❤️ by the</p>
+                    <p class="edith">Educational Innovation and Technology Hub</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('mobile-menu');
+
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
